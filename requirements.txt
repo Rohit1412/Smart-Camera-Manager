@@ -1,0 +1,47 @@
+# Core Dependencies
+opencv-python==4.8.1.78        # Computer vision and image processing
+opencv-contrib-python==4.8.1.78  # Additional OpenCV modules
+numpy==1.24.3                  # Numerical computations
+pillow==10.0.0                # Image processing
+
+# Video Processing
+ffmpeg-python==0.2.0          # Video encoding/decoding
+av==10.0.0                    # Alternative Python binding for FFmpeg
+
+# GUI
+tkinter                       # Included with Python, no version needed
+customtkinter==5.2.0         # Modern themed widgets
+ttkthemes==3.2.2             # Additional themes for tkinter
+
+# Hardware Acceleration
+pycuda==2022.2.2             # CUDA support (optional)
+pyopencl==2023.1.4           # OpenCL support (optional)
+
+# System Monitoring
+psutil==5.9.5                # System and process monitoring
+py-cpuinfo==9.0.0           # CPU information
+
+# Camera Support
+onvif-zeep==0.2.12          # IP camera support
+python-rtsp==1.3.0          # RTSP stream handling
+v4l2-python3==0.3.2         # Video4Linux support
+
+# Performance Optimization
+numba==0.57.1               # JIT compilation for performance
+dask==2023.5.0              # Parallel computing
+
+# Storage and Serialization
+h5py==3.9.0                 # Efficient data storage
+msgpack==1.0.5              # Fast serialization
+
+# Utilities
+python-dateutil==2.8.2      # Date/time utilities
+tqdm==4.65.0                # Progress bars
+colorama==0.4.6             # Colored terminal output
+PyYAML==6.0.1              # Configuration file handling
+
+# Testing and Development (Optional)
+pytest==7.4.0               # Testing framework
+pytest-benchmark==4.0.0     # Performance testing
+mypy==1.5.1                 # Type checking
+black==23.7.0              # Code formatting 
